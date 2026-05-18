@@ -1,0 +1,93 @@
+
+
+.comit_header {
+  font-family: Helvetica, Sans-Serif;
+  text-align: center;
+  letter-spacing: 2rem;
+  margin-right: -2rem;
+  font-size: 70px;
+}
+
+.comit_second_header {
+  font-family: Helvetica, Sans-Serif;
+  text-align: center;
+  letter-spacing: 1.5rem;
+  margin-right: -1.5rem;
+  font-size: 45px;
+  margin-top: 60px;
+}
+
+
+* {
+  font-family: Helvetica, Sans-Serif;
+}
+
+/*
+.progress-bar {
+  background-color: #3c763d;
+}
+*/
+
+.shiny-plot-output {
+  margin-bottom: 80px;
+}
+
+.shiny-table {
+  margin-bottom: 125px;
+}
+
+.datatables {
+  margin-bottom: 125px;
+}
+
+.fixed-sidebar {
+  top:20%;
+  left: 2%;
+  width: 23%;
+  height: 60%;
+  position: fixed;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.tab-content {
+  min-height: calc(100vh - 173px);
+}
+
+
+#shiny-notification-panel {
+  margin-bottom: 100px;
+}
+
+
+/* To set waiter object colour */
+/*
+.cube1 {
+  background-color: #001a2b;
+}
+
+.cube2 {
+  background-color: #001a2b;
+}
+/*
+
+/*Looking at adding a bakcground for texture, need to box off content though.*/
+/*body {
+  background: white;
+  background-image: radial-gradient(#D3D3D3 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+}
+*/
+
+/*
+#model_box {
+  box-sizing: border-box;
+  background: white;
+  border-radius: 15px;
+  border: 2px solid #D3D3D3;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+*/
+
