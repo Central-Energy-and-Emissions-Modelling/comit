@@ -1,0 +1,191 @@
+"","file","test","n_tests","failed","warning","passed","time_taken"
+"1","test-comit_solver.R","Tables present in inputs still remain, and the expected new ones
+          are added",1,0,0,1,0.00999999999976353
+"2","test-comit_solver.R","There are no empty tables after preprocessing the data",1,0,0,1,0.0199999999999818
+"3","test-comit_solver.R","objective function data contains 2 elements which are non-emtpty
+          tables",3,0,0,3,0.0300000000002001
+"4","test-comit_solver.R","decision variables and coeffecients are of the same length and have
+          the same variable indices",2,0,0,2,0.0500000000001819
+"5","test-comit_solver.R","constraint elements are of the expected type",4,0,0,4,0.0199999999999818
+"6","test-comit_solver.R","Only valid values are present",1,0,0,1,0.0799999999999272
+"7","test-comit_solver.R","comit_problem_solver creates a list of the correct length",1,0,0,1,0.0100000000002183
+"8","test-comit_solver.R","outputs match their equivalent inputs when they should be unchanged",3,0,0,3,0.0299999999997453
+"9","test-comit_solver.R","a positive solution is found, with the correct number of decision
+          variables",1,0,0,1,0.0199999999999818
+"10","test-comit_solver.R","comit_problem_solver produces the correct solution to a known
+          linear programming problem",2,0,0,2,0.0300000000002001
+"11","test-comit_solver.R","comit_problem_solver produces the correct solution to a known
+          mixed-integer linear programming problem",4,0,0,4,0.119999999999891
+"12","test-comit_solver.R","comit_solver finds the same obj function value, for a constant input",1,0,0,1,0.0300000000002001
+"13","test-fct_attribution.R","get_sector_commodity_lookup returns correct lookup table",1,0,0,1,0.0100000000002183
+"14","test-fct_attribution.R","sort_efficiencies returns correct resource efficiency data",3,0,0,3,0.0300000000002001
+"15","test-fct_attribution.R","sort_efficiencies returns correct energy efficiency data",3,0,0,3,0.0499999999997272
+"16","test-fct_attribution.R","sort_efficiencies throws error for invalid efficiency type",1,0,0,1,0.0100000000002183
+"17","test-fct_attribution.R","attr_aggregations_by_type returns correct data without exclusion",1,0,0,1,0.0299999999997453
+"18","test-fct_attribution.R","attr_aggregations_by_type returns correct data with exclusion",1,0,0,1,0.0399999999999636
+"19","test-fct_attribution.R","attr_aggregations_by_type returns correct data with multiple exclusions",1,0,0,1,0.0300000000002001
+"20","test-fct_combining_constraints.R","get_constraint_functions produces a character list of the correct
+          length",2,0,0,2,0
+"21","test-fct_combining_constraints.R","get_constraint_functions produces an error if there is no constraint
+          tab.",1,0,0,1,0.0199999999999818
+"22","test-fct_combining_constraints.R","get_constraint_functions produces an error if an invalid constraint
+          name is set to be included.",1,0,0,1,0.0100000000002183
+"23","test-fct_combining_constraints.R","new constraint combination method provides an equivalent matrix to
+          the previous version",8,0,2,6,44.02
+"24","test-fct_combining_constraints.R","get_constraint_matrix produces the expected ouput from a simple
+          known matrix",3,0,0,3,0.0599999999999454
+"25","test-fct_combining_constraints.R","combine_matrix_constraints produces the expected ouput as manually
+           combining two simple known matrices",3,0,0,3,0.160000000000309
+"26","test-fct_constraints_availability.R","dtplyr datatable setting is set to TRUE",1,0,0,1,0.0100000000002183
+"27","test-fct_constraints_availability.R","formulate_availability_constraint returns correct constraints",1,0,0,1,0.00999999999976353
+"28","test-fct_constraints_availability.R","formulate_availability_constraint handles empty data",1,0,0,1,0.0399999999999636
+"29","test-fct_constraints_availability.R","availability returns correct constraints",1,0,0,1,0.0599999999999454
+"30","test-fct_constraints_availability.R","availability handles empty data",1,0,0,1,0.0100000000002183
+"31","test-fct_create_decision_variables.R","create_decision_variables produces columns of the correct type",7,0,0,7,0.0300000000002001
+"32","test-fct_create_decision_variables.R","No duplicate decision variables exist",1,0,0,1,0.00999999999976353
+"33","test-fct_create_decision_variables.R","decision vars present for each condition only when respective parameter is true",10,0,0,10,3.32999999999993
+"34","test-fct_create_decision_variables.R","always present decision variables are included",1,0,0,1,0.0199999999999818
+"35","test-fct_create_decision_variables.R","Warning raised when H2 parameters conflict",1,0,0,1,0.00999999999976353
+"36","test-fct_create_decision_variables.R","Number of rows created by year expansion is correct",3,0,0,3,0.0300000000002001
+"37","test-fct_create_decision_variables.R","All required sites and technologies combinations are used before
+          filtering",1,0,0,1,0.0599999999999454
+"38","test-fct_create_decision_variables.R","Site/technology data filter matches dual coded versions",1,0,0,1,0.0500000000001819
+"39","test-fct_create_decision_variables.R","get_capacity_variables creates the correct shape table with the
+          expected capacity variables",5,0,0,5,1.22000000000025
+"40","test-fct_create_decision_variables.R","get_CCS_sites outputs 1 row for every combination of site and year
+          for sites using at least one CCS technology",1,0,0,1,0.069999999999709
+"41","test-fct_create_decision_variables.R","combine_decision_variables appends all rows from non_null list items",1,0,0,1,0.0199999999999818
+"42","test-fct_finance.R","present_value produces expected values from a table of inputs",2,0,0,2,0.0300000000002001
+"43","test-fct_finance.R","present_value triggers a warning when a negative interest rate is
+          provided",1,0,0,1,0.0199999999999818
+"44","test-fct_finance.R","PV_calculation produces expected_values",3,0,0,3,0.0199999999999818
+"45","test-fct_finance.R","PMT produces correct values for payments",4,0,0,4,0.0300000000002001
+"46","test-fct_finance.R","base_year_adjustment is calculated correctly",3,0,0,3,0.0299999999997453
+"47","test-fct_geography.R","hav.dist calculates correct distances",4,0,0,4,0.0499999999997272
+"48","test-fct_geography.R","assign_site_region assigns the correct region values to some artificial
+          sites",1,0,0,1,7.20000000000027
+"49","test-fct_geography.R","region_lookup can be used to correctly classify the clusters into
+          the standard gor regions",1,0,0,1,6.69999999999982
+"50","test-fct_interpolate_data.R","interpolate_all_columns creates the expected values within columns",3,0,0,3,0.0399999999999636
+"51","test-fct_interpolate_data.R","interpolate_all_columns triggers a warning if start or end values are
+           missing",2,0,0,2,0.0100000000002183
+"52","test-fct_interpolate_data.R","interpolate_all_columns does not interpolate when there is no missing data",1,0,0,1,0.0199999999999818
+"53","test-fct_interpolate_data.R","interpolate_for_years returns a dataframe containing only rows for
+          modelled years and then the interpolated values",2,0,0,2,0.0500000000001819
+"54","test-fct_interpolate_data.R","interpolate_for_years raises an error if a string is supplied in a
+          table to be interpolated",1,0,0,1,0.00999999999976353
+"55","test-fct_interpolate_data.R","interpolate_data works on test input template",3,0,0,3,0.590000000000146
+"56","test-fct_interpolate_data.R","interpolate_data works on actual input template",6,0,0,6,1.07999999999993
+"57","test-fct_process_sites.R","All data tables not purposefully manipulated by process_sites are the
+          same as input",1,0,0,1,0.0500000000001819
+"58","test-fct_process_sites.R","process_sites produces only the expected columns, no duplicate rows
+          and no NAs for the NAEI_clean dataframe",3,0,0,3,1.44000000000005
+"59","test-fct_process_sites.R","process_sites produces a dataframe with as many rows as generated
+          from the large, small and non-point sites functions together",1,0,0,1,1.61000000000013
+"60","test-fct_process_sites.R","traded_flag column has expected values",1,0,0,1,0.0199999999999818
+"61","test-fct_process_sites.R","append_information_to_sites produces data for all sites",1,0,0,1,1.32000000000016
+"62","test-fct_process_sites.R","Each combination of sic code and region are included",3,0,0,3,0.0300000000002001
+"63","test-fct_process_sites.R","calculate_coordinates does the correct conversion",4,0,0,4,0.0399999999999636
+"64","test-fct_process_sites.R","allocate_cluster_points correctly assigns closest cluster for some
+          known points",2,0,0,2,0.0299999999997453
+"65","test-fct_process_sites.R","calculate_pipe_distances produces the correct values for some known
+          points",2,0,0,2,0.0300000000002001
+"66","test-fct_process_sites.R","do_if_using_traded_share_calc performs function when relevant parameter
+          is TRUE, else returns identical df from input.",2,0,0,2,0.0199999999999818
+"67","test-fct_process_sites.R","sum_emissions_by_sector aggregates correctly",1,0,0,1,0.0199999999999818
+"68","test-fct_process_sites.R","get_sector_emission_totals produces all rows and emission shares
+          sum to 1",3,0,0,3,0.0500000000001819
+"69","test-fct_process_sites.R","get_small_point_sites_filter returns variable of correct length and
+          without NA values.",2,0,0,2,1.32999999999993
+"70","test-fct_process_sites.R","get_aggregated_small_points contains the correct number of sites
+          and no duplicates",1,0,0,1,0.0899999999996908
+"71","test-fct_process_sites.R","get_small_point_site_data returns the correct number of sites and
+          only non-traded sites",2,0,0,2,0.0199999999999818
+"72","test-fct_process_sites.R","get_small_point_site_data works with mock data, correctly
+          categorising pipe distances",5,0,0,5,0.0700000000001637
+"73","test-fct_process_sites.R","aggregate_small_sites creates the correct number of aggregate sites
+          from the correct number of small sites.",3,0,0,3,0.0799999999999272
+"74","test-fct_process_sites.R","aggregate_small_sites creates the correct number of aggregate sites
+          from the correct number of small sites, when Two_nps_sites is False.",3,0,0,3,0.0900000000001455
+"75","test-fct_process_sites.R","impute_site_location produces the correct number of coordinates",3,0,0,3,0.110000000000127
+"76","test-fct_process_sites.R","get_inside_vs_outside_cluster_ratios has the correct number of
+          combinations",1,0,0,1,0.0199999999999818
+"77","test-fct_process_sites.R","cluster sector shares produced from
+          get_proportion_of_emissions_from_sector sum to 1",1,0,0,1,0.00999999999976353
+"78","test-fct_process_sites.R","get_inside_vs_outside_cluster_ratios has the correct number of
+          combinations",1,0,0,1,0.0199999999999818
+"79","test-fct_process_sites.R","get_inside_vs_outside_cluster_ratios produces values between 0 and 1",1,0,0,1,0.0100000000002183
+"80","test-fct_process_sites.R","non_point_sites_from_ratios creates a dataframe with the
+            correct number of rows and the correct columns",4,0,0,4,0.110000000000127
+"81","test-fct_process_sites.R","impute_site_details_for_ratios creates a dataframe with the
+            correct number of rows and the correct columns",4,0,0,4,0.0500000000001819
+"82","test-fct_process_sites.R","get_values_for_two_non_point_sites doubles the amount of rows and
+          sums to the original amount of emissions",2,0,0,2,0.0399999999999636
+"83","test-fct_process_sites.R","tidy_sites_data maintains the correct number of rows, sorts them
+          in the correct order and adds the required columns",4,0,0,4,0.0399999999999636
+"84","test-fct_read_data.R","read_excel_data_template returns a list of dataframes only",4,0,0,4,0.579999999999927
+"85","test-fct_read_data.R","read_excel_data_template returns values as expected based on a test
+          template",4,0,0,4,0.610000000000127
+"86","test-fct_read_data.R","get_template_sheet_names returns the correct sheet names from the
+          test file",2,0,0,2,0.0399999999999636
+"87","test-fct_read_data.R","read_input_sheet returns a dataframe matching the expected values
+          from the test file",4,0,0,4,0.190000000000055
+"88","test-fct_read_data.R","pivot_specified_table performs the correct pivot and makes no other
+          changes",2,0,0,2,0.590000000000146
+"89","test-fct_read_data.R","tidy_fuel_constraints produces a dataframe with the correct number
+          of rows and the expected columns",3,0,1,2,0.609999999999673
+"90","test-fct_read_data.R","tidy_cluster_connections creates the correct number of rows, and the
+          right columns with the right types",5,0,0,5,0.559999999999945
+"91","test-fct_read_data.R","sort_retrofit when retrofit is TRUE and column is non-null",1,0,0,1,0.5300000000002
+"92","test-fct_read_data.R","sort_retrofit when retrofit is FALSE and column is non-null",4,0,0,4,0.550000000000182
+"93","test-fct_read_data.R","#sort_retrofit when retrofit column is non-null",2,0,0,2,0.559999999999945
+"94","test-fct_read_data.R","tidy does not effect tables it shouldnt and does effect tables it
+          should",7,0,2,5,0.75
+"95","test-fct_read_data.R","round_years produces values for the columns effected that are
+          multiples of the timestep used",4,0,0,4,0.0499999999997272
+"96","test-fct_read_data.R","adjust_for_optimism applies the expected multiplication to the expected
+          columns",4,0,0,4,0.0300000000002001
+"97","test-fct_sites.R","add_site_ID adds an integer site_ID column to the inteded table",2,0,0,2,0.0300000000002001
+"98","test-fct_sites.R","add_site_ID creates a unique set of IDs",1,0,0,1,0.0199999999999818
+"99","test-fct_sites.R","There are no duplicate sites",1,0,0,1,0.00999999999976353
+"100","test-fct_sites.R","Pipe distances are updated after NAEI adjustment",1,0,0,1,0.0300000000002001
+"101","test-fct_sites.R","use_CCS_spur makes adjustment to CCS pipes",4,0,2,2,0.5
+"102","test-fct_starting_values.R","apply_energy_efficiency makes the expected adjustment for energy and
+          resource efficiency on demand using mock data.",1,0,0,1,0.0299999999997453
+"103","test-fct_starting_values.R","using apply_energy_efficiency on the default input spreadsheet
+          creates a table with the correct number of rows and cols",4,0,2,2,0.380000000000109
+"104","test-fct_starting_values.R","apply_energy_efficiency does not change any tables other than
+          Demand_drivers, and all commodities still exist in Demand_drivers",5,0,2,3,1.82000000000016
+"105","test-fct_starting_values.R","all tables other than technologies are identical and Technologies
+          still has correct number of rows after adjust_existing_capacity",5,0,2,3,0.5300000000002
+"106","test-fct_starting_values.R","there is now enough capacity to meet demand after applying
+          adjust_existing_capacity",4,0,2,2,0.550000000000182
+"107","test-fct_starting_values.R","get_existing_techs_matrix produces a matrix with the correct
+          number of rows and columns",5,0,2,3,0.430000000000291
+"108","test-fct_starting_values.R","get_existing_techs_matrix produces the expected values",3,0,2,1,0.449999999999818
+"109","test-golem-recommended.R","app ui",2,0,0,2,0.579999999999927
+"110","test-golem-recommended.R","app server",4,0,0,4,0.0399999999999636
+"111","test-golem-recommended.R","app_sys works",1,0,0,1,0.0100000000002183
+"112","test-golem-recommended.R","golem-config works",2,0,0,2,0.0499999999997272
+"113","test-golem-recommended.R","app launches",1,0,0,0,0.0500000000001819
+"114","test-golem_utils_server.R","not_in works",2,0,0,2,0.0199999999999818
+"115","test-golem_utils_server.R","not_null works",2,0,0,2,0.0300000000002001
+"116","test-golem_utils_server.R","not_na works",2,0,0,2,0.00999999999976353
+"117","test-golem_utils_server.R","drop_nulls works",1,0,0,1,0.0199999999999818
+"118","test-golem_utils_server.R","%||% works",2,0,0,2,0.0199999999999818
+"119","test-golem_utils_server.R","%|NA|% works",2,0,0,2,0.0199999999999818
+"120","test-golem_utils_server.R","rv and rvtl work",2,0,0,2,0.0199999999999818
+"121","test-golem_utils_ui.R","Test with_red_star works",2,0,0,2,0.0199999999999818
+"122","test-golem_utils_ui.R","Test list_to_li works",3,0,0,3,0.0299999999997453
+"123","test-golem_utils_ui.R","Test list_to_p works",3,0,0,3,0.0199999999999818
+"124","test-golem_utils_ui.R","Test named_to_li works",3,0,0,3,0.0199999999999818
+"125","test-golem_utils_ui.R","Test tagRemoveAttributes works",4,0,0,4,0.0199999999999818
+"126","test-golem_utils_ui.R","Test undisplay works",8,0,0,8,0.0399999999999636
+"127","test-golem_utils_ui.R","Test display works",4,0,0,4,0.0199999999999818
+"128","test-golem_utils_ui.R","Test jq_hide works",2,0,0,2,0.0199999999999818
+"129","test-golem_utils_ui.R","Test rep_br works",2,0,0,2,0.0100000000002183
+"130","test-golem_utils_ui.R","Test enurl works",2,0,0,2,0.0199999999999818
+"131","test-golem_utils_ui.R","Test columns wrappers works",16,0,0,16,0.0799999999999272
+"132","test-golem_utils_ui.R","Test make_action_button works",2,0,0,2,0.0199999999999818
+"133","test-nzip2_staged_solver.R","comit_staged_solver is identical to comit solver, to ensure its up
+          to date.",1,0,0,1,134.71

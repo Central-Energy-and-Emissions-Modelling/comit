@@ -1,0 +1,62 @@
+Package: comit
+Title: comit
+Version: 1.4.0
+Authors@R: c(
+    person("Bartur", "Jumarhon", email = "bartur.jumarhon@energysecurity.gov.uk", role = "aut"),
+    person("Marissa", "Mcbride", email = "marissa.mcbride@energysecurity.gov.uk", role = "aut"),
+    person("Joel", "Jones", email = "joel.jones@energysecurity.gov.uk", role = c("aut", "cre")),
+    person("Moritz", "Hesse", role = "aut")
+  )
+Description: Cost Optimisation Model for Industrial Technologies.
+License: MIT + file LICENSE
+URL: http://gitlab2/Jojones/comit
+BugReports: http://gitlab2/Jojones/comit/issues
+Imports: 
+    config (>= 0.3.2),
+    covr,
+    desc,
+    dplyr,
+    dtplyr,
+    DT,
+    geosphere,
+    ggplot2,
+    golem (>= 0.4.1),
+    highs,
+    Hmisc,
+    lubridate,
+    magrittr,
+    markdown,
+    Matrix,
+    openxlsx (>= 4.2.8),
+    pkgload,
+    plotly,
+    purrr,
+    readr,
+    readxl,
+    rlang,
+    ROI,
+    ROI.plugin.lpsolve,
+    ROI.plugin.symphony,
+    sf,
+    shiny (>= 1.8.0),
+    shinycssloaders,
+    shinyjs,
+    shinythemes,
+    shinyWidgets,
+    stringr,
+    tibble,
+    tidyr,
+    waiter,
+    zip
+Suggests: 
+    beepr,
+    scales,
+    spelling,
+    testthat (>= 3.0.0),
+    tictoc
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3

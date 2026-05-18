@@ -1,0 +1,15 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+dev_history.R
+^dev$
+$run_dev.*
+^.here$
+^development_scripts$
+^data_template_archive$
+^Model_Log\.xlsx$
+^timing_logs$
+^app\.R$
+^rsconnect$
+^\.rscignore$
+^LICENSE\.md$
