@@ -54,7 +54,7 @@ The functions used to create the `comit` model are available through the package
 
 ## **📊 Dataset Documentation** 
 
-### **data_template_archive/comit_input_1_2_0_public.xlsx**
+### **data_template_archive/comit_input_1_4_0_public.xlsx**
 The input assumptions spreadsheet that is used to run the model. This contains many sheets which correspond to the values used in the objective function and constraints for the linear programming model.
 
 The numbers in the file name are used to denote the package version that the input spreadsheet was developed for. Make sure that your input spreadsheet and the package you have installed are both of the same version.
