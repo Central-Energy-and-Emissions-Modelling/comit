@@ -61,9 +61,6 @@ The numbers in the file name are used to denote the package version that the inp
 
 Please note that this is the public version of the input assumptions, meaning that any sensitive information has been replaced with artificial numbers. Therefore, we recommend that users review all input figures and input their own assumptions. Using the default figures from the public input spreadsheet will produce results that should not be used for any inference - they will be completely inaccurate.
 
-### **assumptions_info/GH_NZIP2.xlsx**
-This spreadsheet contains the results of research completed by Guidehouse to form the technology values used in the input assumptions. This has been included for transparency. The data itself is already included in the comit input spreadsheet and this file is not used by the package directly.
-
 ---
 
 ## **📁 Project Structure**
@@ -72,7 +69,7 @@ comit/
 ├─ R/                       # Function scripts
 ├─ man/                     # Generated documentation
 ├─ data_template_archive/   # Assumptions data
-├─ assumptions_info/        # Details the origin of technology assumptions
+├─ docs/                    # Model documentation and user resources
 ├─ dev/                     # Used for development with golem, can be ignored
 ├─ tests/                   # Unit tests
 ├─ inst/                    # Files required for package build/usage
