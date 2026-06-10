@@ -7,6 +7,7 @@ The `comit` packages includes an Rshiny application that allows users to run mod
 ---
 ## **Disclaimer**
 The COMIT model is an analytical tool designed to explore a range of pathways for industrial decarbonisation.  Outputs are dependent on user-defined assumptions.  As such, they do not represent government policy, forecasts, or preferred outcomes and should be interpreted as indicative rather than predictive.
+
 The Department for Energy Security and Net Zero provides no express or implied warranties concerning the COMIT model and its content and, accordingly, accepts no liability arising from use of the tool or its content.
 
 ---
