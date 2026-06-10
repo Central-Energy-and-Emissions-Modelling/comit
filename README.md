@@ -5,7 +5,11 @@ COMIT is an optimisation model of UK industry. It finds the least cost pathway f
 The `comit` packages includes an Rshiny application that allows users to run models and visualise results.
 
 ---
+## **Disclaimer**
+The COMIT model is an analytical tool designed to explore a range of pathways for industrial decarbonisation.  Outputs are dependent on user-defined assumptions.  As such, they do not represent government policy, forecasts, or preferred outcomes and should be interpreted as indicative rather than predictive.
+The Department for Energy Security and Net Zero provides no express or implied warranties concerning the COMIT model and its content and, accordingly, accepts no liability arising from use of the tool or its content.
 
+---
 ## **🔧 Installation**
 
 ### **Install from GitHub**
@@ -59,7 +63,7 @@ The input assumptions spreadsheet that is used to run the model. This contains m
 
 The numbers in the file name are used to denote the package version that the input spreadsheet was developed for. Make sure that your input spreadsheet and the package you have installed are both of the same version.
 
-Please note that this is the public version of the input assumptions, meaning that any sensitive information has been replaced with artificial numbers. Therefore, we recommend that users review all input figures and input their own assumptions. Using the default figures from the public input spreadsheet will produce results that should not be used for any inference - they will be completely inaccurate.
+Default inputs are provided to enable model to run and should not be interpreted as recommended by DESNZ. Users are responsible for identifying appropriate model inputs.  Many of the technical assumption values in the input template are, however, taken from research sponsored by DESNZ and published on the COMIT page of gov.uk. 
 
 ---
 
