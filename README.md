@@ -66,7 +66,7 @@ The numbers in the file name are used to denote the package version that the inp
 
 Default inputs are provided to enable model to run and should not be interpreted as recommended by DESNZ. Users are responsible for identifying appropriate model inputs.  Many of the technical assumption values in the input template are, however, taken from research sponsored by DESNZ and published on the COMIT page of gov.uk. 
 
-For guidance on running the model, preparing inputs, and interpreting outputs, please refer to **COMIT User guide.pdf** in the *doc* folder. For further information on the model structure, methodology, datasets, and underlying assumptions, please refer to **COMIT Documentation and Technical Guide.pdf**. These documents should be read alongside the input template to support appropriate and effective use of the model.
+For guidance on running the model, preparing inputs, and interpreting outputs, please refer to **COMIT User guide.pdf** in the *docs* folder. For further information on the model structure, methodology, datasets, and underlying assumptions, please refer to **COMIT Documentation and Technical Guide.pdf**. These documents should be read alongside the input template to support appropriate and effective use of the model.
 
 ---
 
