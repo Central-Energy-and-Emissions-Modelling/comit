@@ -57,7 +57,7 @@ The functions used to create the `comit` model are available through the package
 
 ---
 
-## **📊 Dataset Documentation** 
+## **📊 Dataset and Documentation** 
 
 ### **data_template_archive/comit_input_1_4_0_public.xlsx**
 The input assumptions spreadsheet that is used to run the model. This contains many sheets which correspond to the values used in the objective function and constraints for the linear programming model.
@@ -65,6 +65,8 @@ The input assumptions spreadsheet that is used to run the model. This contains m
 The numbers in the file name are used to denote the package version that the input spreadsheet was developed for. Make sure that your input spreadsheet and the package you have installed are both of the same version.
 
 Default inputs are provided to enable model to run and should not be interpreted as recommended by DESNZ. Users are responsible for identifying appropriate model inputs.  Many of the technical assumption values in the input template are, however, taken from research sponsored by DESNZ and published on the COMIT page of gov.uk. 
+
+For guidance on running the model, preparing inputs, and interpreting outputs, please refer to **COMIT User guide.pdf** in the *doc* folder. For further information on the model structure, methodology, datasets, and underlying assumptions, please refer to **COMIT Documentation and Technical Guide.pdf**. These documents should be read alongside the input template to support appropriate and effective use of the model.
 
 ---
 
